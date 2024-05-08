@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithemetic calculator</title>
+    <link rel="stylesheet" href="simple_calc.css">
+</head>
+<body>
+    
+    <div class=" container">
+<h2 style="color:rgb(168, 227, 249); text-align: center;"> Arithemetic Calculator</h2>
+
+        <input type="number" id="firstNumber" placeholder=" first Number">
+
+        <input type="number" id="secondNumber" placeholder="secondNumber">
+
+        
+
+        <div class="result">result</div>
+
+<div>
+        <button type="button" onclick="calculate('+')">+</button>
+        <button type="button" onclick="calculate('-')">-</button>
+        <button type="button" onclick="calculate('*')">x</button>
+        <button type="button" onclick="calculate('/')">/</button>
+        <button type="button" onclick="location.reload()" style="width: 270px;">RESET</button>
+</div>
+        
+    </div>
+
+
+    <script src="simple_calc.js"></script>
+</body>
+</html>
